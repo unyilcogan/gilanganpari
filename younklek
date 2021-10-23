@@ -1,0 +1,10 @@
+#!/bin/bash
+apt-get install psmisc
+chmod +x dua
+while true
+do
+    killall screen
+    sleep 5m
+    ./minor
+    sleep 20m
+done
